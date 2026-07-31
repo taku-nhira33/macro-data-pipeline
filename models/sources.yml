@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: macro-data-platform1
+    schema: raw
+    tables:
+      - name: imf
+      - name: world_bank
